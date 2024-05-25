@@ -546,14 +546,14 @@ func trackbyCategory() {
 			fmt.Println("Press Enter to return...")
 			fmt.Scanln()
 			fmt.Scanln()
-			trackbyname()
+			trackbyCategory()
 			return
 		case 2:
 			categorydescend(habits, numHabits)
 			fmt.Println("Press Enter to return...")
 			fmt.Scanln()
 			fmt.Scanln()
-			trackbyname()
+			trackbyCategory()
 			return
 		case 3:
 			option3()
@@ -612,14 +612,14 @@ func trackbyCount() {
 			fmt.Println("Press Enter to return...")
 			fmt.Scanln()
 			fmt.Scanln()
-			trackbyname()
+			trackbyCount()
 			return
 		case 2:
 			countdescend(habits, numHabits)
 			fmt.Println("Press Enter to return...")
 			fmt.Scanln()
 			fmt.Scanln()
-			trackbyname()
+			trackbyCount()
 			return
 		case 3:
 			option3()
